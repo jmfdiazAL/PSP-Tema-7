@@ -32,10 +32,10 @@ public class Main {
              "c:\\cripto\\fichero.descifrado"); */
             /* Encriptar en Linux => debe existir el fichero => /home/ramon/fichero */
             //Llama al método que encripta el fichero que se pasa como parámetro
-            clave = cifrarFichero("/home/ramon/fichero");
+            clave = cifrarFichero("C:\\Users\\jmfdiaz\\fichero");
 
             //Llama la método que desencripta el fichero pasado como primer parámetro
-            descifrarFichero("/home/ramon/fichero.cifrado", clave, "/home/ramon/fichero.descifrado");
+            descifrarFichero("C:\\Users\\jmfdiaz\\fichero.cifrado", clave, "C:\\Users\\jmfdiaz\\fichero.descifrado");
         } catch (NoSuchAlgorithmException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (NoSuchPaddingException ex) {

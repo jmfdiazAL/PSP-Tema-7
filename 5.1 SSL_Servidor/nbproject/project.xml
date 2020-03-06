@@ -3,7 +3,7 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
-            <name>PSP07_CONT_R37_SSL_Servidor</name>
+            <name>SSL_Servidor</name>
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
